@@ -16,6 +16,22 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Tom
 </header>
 ```
 
+## Text box
+```
+<div>
+     <h2>Header of text paragraph</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem excepturi, 
+     qui unde asperiores delectus nobis tempore omnis at quibusdam.</p>
+</div>
+```
+## Image
+```
+<figure>
+        <img src="#" alt="#">
+        <figcaption>Image 1</figcaption>
+</figure>
+```
+
 ## Components
 ### First
 ### Second
