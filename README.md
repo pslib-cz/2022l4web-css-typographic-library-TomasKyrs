@@ -32,6 +32,35 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Tom
 </figure>
 ```
 
+## Lists
+Ordered lists and unordered lists are currently being used
+
+### Unordered list
+```
+<ul>
+     <li>Product 1</li>
+     <li>Product 2
+         <ul>
+            <li>Variation of product 2</li>
+            <li>Variation of product 2</li>
+        </ul>
+    </li>
+</ul>
+```
+
+### Ordered list
+```
+<ol>
+      <li>First product</li>
+      <li>Second product
+         <ol>
+            <li>First Variation of second product</li>
+           <li>Second Variation of second product</li>
+        </ol>
+    </li>
+</ol>
+```
+
 ## Components
 ### First
 ### Second
