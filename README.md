@@ -25,7 +25,6 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Tom
     </div>
 
 ```
-
 ## Components
 ### First
 ### Second
