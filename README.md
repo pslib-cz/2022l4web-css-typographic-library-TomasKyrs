@@ -28,7 +28,7 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Tom
 ```
 <figure>
         <img src="#" alt="#">
-        <figcaption>Obrazek 1</figcaption>
+        <figcaption>Image 1</figcaption>
 </figure>
 ```
 
