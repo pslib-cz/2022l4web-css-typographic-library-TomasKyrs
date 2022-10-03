@@ -9,13 +9,10 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Tom
 ## Usage
 ...
 ## Header
-<html>
-<header>
+###<header>
         <h1>First level heading</h1>
         <h2>Secondary heading level</h2>
 </header>
-        </html>
-...
 ## Components
 ### First
 ### Second
