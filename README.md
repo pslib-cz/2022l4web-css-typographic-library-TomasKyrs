@@ -81,6 +81,9 @@ Ordered lists and unordered lists are currently being used
 </ol>
 ```
 
+## Pre tag
+Indicates a preformatted text
+
 ## Footer
 ```
 <footer>
