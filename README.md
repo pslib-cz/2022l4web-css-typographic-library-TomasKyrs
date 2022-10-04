@@ -5,8 +5,15 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Tom
 ## Dependecies
 ...
 ## Implementation
+
+Add file inside your project folder
+
+Link style.css file to <head> in every HTML page using syntax:
+```
+  <link href="./style.css" rel="stylesheet">      
+```   
 ...
-## Usage
+## Usage     
 ...
 ## Header
 ```
