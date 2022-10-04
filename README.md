@@ -26,7 +26,9 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Tom
 ```
 ## Image
 
-### Normal image
+Static image and scaling image
+
+### Static image
 
 ```
 <figure>
