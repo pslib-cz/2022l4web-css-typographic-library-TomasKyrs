@@ -16,19 +16,23 @@ q {
 .scaled_image {
     max-width: 40%;
     position: relative;
+    overflow: hidden;
+    height: 100%;
 }
 
-.scaled_image:hover {
+.responsiveimg_scale:hover{
     transform: scale(1.05);
     transition: transform .25s ease-in-out;
+    overflow: hidden;
 }
 
-.scaled_image {
-    transform: scale(1.);
+.responsiveimg_scale{
+    transform: scale(1);
     transition: transform .25s ease-in-out;
+    vertical-align: middle;
 }
 
-.responsiveimg {
+.responsiveimg_scale{
     width: 100%;
 }
 
@@ -53,4 +57,13 @@ q {
     font-size: 1.2rem;
     right: 0;
     padding: 5rem 1rem 1rem;
+}
+
+figcaption {
+    padding-left: 1em;
+}
+
+.author_image {
+    float: right;
+    padding-right: 1em;
 }
