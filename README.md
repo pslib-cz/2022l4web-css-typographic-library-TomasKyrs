@@ -61,6 +61,15 @@ Ordered lists and unordered lists are currently being used
 </ol>
 ```
 
+## Footer
+```
+<footer>
+    <img src="#" alt="#">
+    <p>Author: <strong>Name</strong></p>
+    <a href="#website">Website</a>
+ </footer>
+ ```
+
 ## Components
 ### First
 ### Second
