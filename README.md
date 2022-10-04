@@ -5,8 +5,15 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Tom
 ## Dependecies
 ...
 ## Implementation
+
+Add file inside your project folder
+
+Link style.css file to <head> in every HTML page using syntax:
+```
+  <link href="./style.css" rel="stylesheet">      
+```   
 ...
-## Usage
+## Usage     
 ...
 ## Header
 ```
@@ -40,7 +47,7 @@ Static image and scaling image
 ### Scaling image
 ```
 <figure class="scaled_image">
-  <img class="responsiveimg_scale" src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt=".">
+  <img class="responsiveimg_scale" src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="#">
   <figcaption></figcaption>
  </figure>
 ```
@@ -73,6 +80,9 @@ Ordered lists and unordered lists are currently being used
     </li>
 </ol>
 ```
+
+## Pre tag
+Indicates a preformatted text
 
 ## Footer
 ```
