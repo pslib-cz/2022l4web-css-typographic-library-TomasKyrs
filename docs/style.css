@@ -2,3 +2,55 @@ h1 {
     font-size: 2.4rem;
     line-height: 3rem;
 }
+
+blockquote {
+    background-color: rgba(199, 199, 199, 0.719);
+    padding: 1em;
+    max-width: 70%;
+}
+
+q {
+    padding-left: 2em;
+}
+
+.scaled_image {
+    max-width: 40%;
+    position: relative;
+}
+
+.scaled_image:hover {
+    transform: scale(1.05);
+    transition: transform .25s ease-in-out;
+}
+
+.scaled_image {
+    transform: scale(1.);
+    transition: transform .25s ease-in-out;
+}
+
+.responsiveimg {
+    width: 100%;
+}
+
+  .scaled_image:hover figcaption::before {
+    content: "Image 1";
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 0;
+    font-size: 1.2rem;
+    right: 0;
+    padding: 5rem 1rem 1rem;
+    visibility: visible;
+    background: linear-gradient(to top, hsla(230, 40%, 5%, 0.95), hsla(230, 40%, 5%, 0));
+  }
+
+  .scaled_image:hover figcaption::after{
+    content: "Author: Jessie Brown";
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 1.2rem;
+    right: 0;
+    padding: 5rem 1rem 1rem;
+}
