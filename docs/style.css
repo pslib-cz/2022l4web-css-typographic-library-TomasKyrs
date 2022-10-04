@@ -20,7 +20,7 @@ q {
     height: 100%;
 }
 
-.responsiveimg_scale:hover{
+.scaled_image:hover .responsiveimg_scale{
     transform: scale(1.05);
     transition: transform .25s ease-in-out;
     overflow: hidden;
