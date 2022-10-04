@@ -25,11 +25,24 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Tom
 </div>
 ```
 ## Image
+
+Static image and scaling image
+
+### Static image
+
 ```
 <figure>
         <img src="#" alt="#">
         <figcaption>Image 1</figcaption>
 </figure>
+```
+
+### Scaling image
+```
+<figure class="scaled_image">
+  <img class="responsiveimg_scale" src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt=".">
+  <figcaption></figcaption>
+ </figure>
 ```
 
 ## Lists
