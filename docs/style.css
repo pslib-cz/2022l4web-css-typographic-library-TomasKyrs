@@ -67,3 +67,24 @@ figcaption {
     float: right;
     padding-right: 1em;
 }
+
+.alert {
+    display: flex;
+    max-width: 40%;
+    margin-bottom: .5em;
+}
+
+.alert--high {
+    background-color: rgb(13, 138, 40);
+    color: white;
+}
+
+.alert--middle {
+    background-color: rgb(13, 42, 138);
+    color: white;
+}
+
+.alert__close {
+    padding: 0 1em;
+    margin: auto 0;
+}
