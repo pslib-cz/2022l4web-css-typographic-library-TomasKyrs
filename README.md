@@ -10,7 +10,7 @@ Add file inside your project folder
 
 Link style.css file to every HTML page using syntax:
 ```
-  <link href="./style.css" rel="stylesheet">
+<link href="./style.css" rel="stylesheet">
 ```   
 ## Usage     
 ...
