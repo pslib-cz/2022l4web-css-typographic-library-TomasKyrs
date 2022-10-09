@@ -81,6 +81,14 @@ Ordered lists and unordered lists are currently being used
 </ol>
 ```
 
+## Alert buttons
+```
+<div class="alert alert--middle">
+ <span class="alert__close" onclick="this.parentElement.style.display='none';">x</span>
+ <p>This is a warning alert box that will disappear when you click on X button.</p>
+</div>
+```
+
 ## Pre tag
 Indicates a preformatted text
 
