@@ -97,8 +97,7 @@ Indicates a preformatted text
   is displayed in a fixed-width
     font, and it preserves
      both       spaces and
-      line breaks
-</pre>
+      line breaks </pre>
 ```
 
 ## Footer
