@@ -91,6 +91,15 @@ Ordered lists and unordered lists are currently being used
 
 ## Pre tag
 Indicates a preformatted text
+```
+<pre>
+ Text in a pre element
+  is displayed in a fixed-width
+    font, and it preserves
+     both       spaces and
+      line breaks
+</pre>
+```
 
 ## Footer
 ```
