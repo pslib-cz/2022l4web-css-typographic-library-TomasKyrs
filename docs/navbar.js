@@ -4,7 +4,7 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+  if (document.body.scrollTop > 580 || document.documentElement.scrollTop > 580) {
     document.getElementById("navbar").style.padding = "4px 2px";
     document.getElementById("navbar").style.backgroundColor = "#376847";
   } else {
@@ -15,7 +15,7 @@ function scrollFunction() {
 
 
 function OnScrollWindow() {
-  if (document.body.scrollTop > 110 || document.documentElement.scrollTop > 110) {
+  if (document.body.scrollTop > 570 || document.documentElement.scrollTop > 570) {
 var elements = document.getElementsByClassName("navbar-menu__link");
 elements[0].className = "navbar-menu__link--override";
 } else {
