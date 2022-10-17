@@ -2,7 +2,7 @@ html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     scroll-behavior: smooth;
-    scroll-padding-top: 82px;
+    scroll-padding-top: 81px;
   }
   
   .width__container {
@@ -108,13 +108,13 @@ html {
 
   
   ul.navbar-menu:hover li{
-    opacity:0.5;
-    transition: all .35s ease-in-out;
+    opacity:0.3;
+    transition: all .25s ease-in-out;
   }
   
  ul.navbar-menu li:hover{
     opacity:1;
-    transition: all .35s ease-in-out;
+    transition: all .25s ease-in-out;
   }
   
   .navbar-menu > li{
@@ -157,6 +157,10 @@ html {
         color: white;
       }
 
+      .dark-mode p{
+        color: white;
+      }
+
       .dark-mode #navbar{
         background-color: rgb(49, 47, 47);
         color: white;
@@ -185,6 +189,11 @@ html {
        background-color: rgb(55, 104, 71); 
       }
       #navbar.sticky  .navbar-menu__link
+      {
+        color: #fff;
+      }
+
+      #navbar.sticky a.icon 
       {
         color: #fff;
       }
@@ -310,10 +319,10 @@ section h2 {
 }
 
 .width__container__info {
-  background-image: linear-gradient(-45deg, #f7bb61 0, #ab1b46 100%);
+  background-image: linear-gradient(-45deg, #6178f7 0, #ab1b46 100%);
   box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2),
   0 11px 21px 0 rgba(255, 166, 220, 0.004);
-    margin-top: 21%;
+    margin-top: 50vh;
     color: white;
   }
 
@@ -327,9 +336,13 @@ section h2 {
 
 header > p {
   font-size: 1.5rem;
-  max-width: 760px;
-  margin: 15em auto 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
+}
+
+header {
+  margin-top: 16em;
 }
 
 .button {
@@ -338,7 +351,7 @@ header > p {
   padding: 1rem 3rem;
   display: block;
   border-radius: 20px;
-  margin: 6em auto 0 auto;
+  margin: 4em auto 0 auto;
   width: 10%;
   text-decoration: none;
   font-family: system-ui;
@@ -346,7 +359,7 @@ header > p {
   text-transform: uppercase;
   color: #fff !important;
   background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
-  box-shadow: 0 2px 10px 0 rgba(185, 10, 229, 0.75);
+  box-shadow: 0 2px 10px 0 rgba(211, 145, 24, 0.75);
     animation-duration: 1.5s; 
     animation-delay: .5s;
     white-space: nowrap;
@@ -461,23 +474,61 @@ header > p {
   display: none;
 }
 
-.type {
-  color:#0000;
-  background:
-    linear-gradient(-90deg,#00DFFC 5px,#0000 0) 10px 0,
-    linear-gradient(#00DFFC 0 0) 0 0;
-  background-size:calc(var(--n)*1ch) 200%;
-  -webkit-background-clip:padding-box,text;
-  background-clip:padding-box,text;
-  background-repeat:no-repeat;
-  animation: 
-   b .7s infinite steps(1),   
-   t calc(var(--n)*.3s) steps(var(--n)) forwards;
+.typewrite {
+  text-align: center;
+  color:rgb(74, 189, 39);
+  padding-top:3em;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
-@keyframes t{
-  from {background-size:0 200%}
+.first_letter {
+  color:rgb(74, 189, 39);
+  font-size: 4rem;
+  font-family: serif;
 }
-@keyframes b{
-  50% {background-position:0 -100%,0 0}
+
+div.social-media-links {
+  background: #323b40;
+  overflow: hidden;
+  padding-bottom: 4px;
+  text-align: center;
 }
+      footer ul {
+        margin: 0;
+        padding: 0;
+      }
+      footer li {
+        display: inline;
+        margin: 0;
+        padding: 0;
+      }
+      footer a {
+        border-bottom: 0px solid rgba(0,0,0,0.95);
+        border-radius: 4px;
+        box-shadow: inset 0 -3px 0 0 rgba(0,0,0,0), 0 6px 8px rgba(0,0,0,0), 0 24px 24px rgba(0,0,0,0), 0 36px 36px rgba(0,0,0,0), 0 64px 64px rgba(0,0,0,0), 0 64px 128px rgba(0,0,0,0), 0 120px 0 rgba(0,0,0,0), 0 86px 8px 6px rgba(0,0,0,0),;
+        display: inline-block;
+        height: 30px;
+        padding: 20px;
+        position: relative;
+        transition: .2s ease-in;
+        width: 30px;
+      }
+        footer svg {
+          left: 20px;
+          position: absolute;
+          top: 20px;
+          height: 30px;
+          width: 30px;
+        }
+      a:hover {
+        transform: translateY(-4px);
+        box-shadow: inset 0 -3px 0 0 rgba(0,0,0,0.1), 0 6px 8px rgba(0,0,0,0.05), 0 24px 24px rgba(0,0,0,0.05), 0 36px 36px rgba(0,0,0,0.05), 0 64px 64px rgba(0,0,0,0.15), 0 64px 128px rgba(0,0,0,0.15), 0 86px 8px 6px;
+      }
+
+          path, circle {
+            fill: (#0ebac7);
+          }
+				path, circle {
+					fill: #0ebac7;
+				}

@@ -16,7 +16,6 @@ and (max-width: 999px) {
   header > p {
     font-size: 1.25rem;
     max-width: 760px;
-    margin: 15em auto 0 auto;
     width: 75%;
   }
 
