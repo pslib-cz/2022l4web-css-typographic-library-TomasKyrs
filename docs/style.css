@@ -63,11 +63,6 @@ figcaption {
     padding-left: 1em;
 }
 
-.author_image {
-    float: right;
-    padding-right: 1em;
-}
-
 .alert {
     display: flex;
     margin-bottom: .5em;

@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+	<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="./separate.css" rel="stylesheet">
     <link href="./media.css" rel="stylesheet">
+    <link href="./essentials.css" rel="stylesheet">
     <title>Typography library</title>
 </head>
 <body>
@@ -21,6 +25,10 @@
                 <li><a class="navbar-menu__link"href="#">footer</a></li>
             </ul>
         </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction();doSomethingElse()">
+            <i class="fa fa-bars"></i>
+        </a>
 
         <label onclick="darkmode()" class="switch">
             <input type="checkbox" class="checkbox">
@@ -41,7 +49,7 @@
         </label>
     </nav>
     <header>
-                <p>Maestro is a free typography CSS library. It was created for a school project. You tables, buttons, alerts and more. It's responsible and cross-browser friendly.</p>
+                <p class="typewriter">Maestro<span class="type" style="--n:53"> is a free typography CSS library. It was created for a school project. You tables, buttons, alerts and more. It's responsible and cross-browser friendly.</span></p>
                 <a href="https://github.com/pslib-cz/2022l4web-css-typographic-library-TomasKyrs" class="button bounce">View on GitHub</a>
                 <svg class="arrows">
                     <a href="#beginning">
@@ -202,5 +210,6 @@
  <script src='./darkmode.js'></script>
  <script src='./navbar.js'></script>
  <script src="./animation.js"></script>
+ <script src="./hamburger.js"></script>
 </body>
 </html>
