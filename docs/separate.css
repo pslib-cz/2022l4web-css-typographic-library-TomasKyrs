@@ -156,6 +156,26 @@ html {
         color: white;
       }
 
+      .dark-mode #navbar{
+        background-color: rgb(49, 47, 47);
+        color: white;
+      }
+
+      .dark-mode  .navbar-menu__link
+      {
+        color: #fff;
+      }
+
+
+      #navbar.sticky, .dark-mode #navbar.sticky
+      {
+       background-color: rgb(55, 104, 71); 
+      }
+      #navbar.sticky  .navbar-menu__link
+      {
+        color: #fff;
+      }
+
 h1 {
     margin-top: 3em;
 }
@@ -315,6 +335,7 @@ header > p {
     0 11px 21px 0 rgba(255, 166, 220, 0.004);
     animation-duration: 1.5s; 
     animation-delay: .5s;
+    white-space: nowrap;
 }
 
 @keyframes bounce { 
@@ -326,4 +347,21 @@ header > p {
 .bounce { 
   -webkit-animation-name: bounce; 
   animation-name: bounce; 
+}
+
+.svg {
+  filter: invert(1) sepia(1) saturate(10) hue-rotate(175deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.width__container__info--wrapper > div h3 {
+  text-align: center;
+}
+
+
+.width__container__info--wrapper > div {
+  width: 25%;
 }
