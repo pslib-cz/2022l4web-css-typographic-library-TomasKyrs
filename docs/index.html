@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
     <link href="./separate.css" rel="stylesheet">
+    <link href="./media.css" rel="stylesheet">
     <title>Typography library</title>
 </head>
 <body>
     <nav id="navbar">
         <div id="navbar_sirka">
-            <a class="navbar-menu__link" href="./index.html">Typographic library</a>
+            <a class="navbar-menu__link" href="#">Typographic library</a>
             <ul class="navbar-menu">
                 <li><a class="navbar-menu__link"href="#image">images</a></li>
                 <li><a class="navbar-menu__link"href="#quotes">quotes</a></li>
                 <li><a class="navbar-menu__link"href="#lists">lists</a></li>
                 <li><a class="navbar-menu__link"href="#alert">alerts</a></li>
-                <li><a class="navbar-menu__link"href="#footer">footer</a></li>
+                <li><a class="navbar-menu__link"href="#">footer</a></li>
             </ul>
         </div>
 
@@ -42,19 +43,26 @@
     <header>
                 <p>Maestro is a free typography CSS library. It was created for a school project. You tables, buttons, alerts and more. It's responsible and cross-browser friendly.</p>
                 <a href="https://github.com/pslib-cz/2022l4web-css-typographic-library-TomasKyrs" class="button bounce">View on GitHub</a>
-            <section class="width__container__info">
+                <svg class="arrows">
+                    <a href="#beginning">
+                    <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                    <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                    <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                </a>
+                </svg>
+            <section id="beginning" class="width__container__info">
                 <h2>Here you will find</h2>
                 <div class="width__container__info--wrapper">
-                <div>
+                <div class="animation-wrapper">
                     <img class="svg" src = "./svg/picture-svgrepo-com.svg" alt="My Happy SVG"/>
                         
                     <h3>Customised images</h3>
                 </div>
-                <div>
+                <div class="animation-wrapper1">
                     <img class="svg" src = "./svg/tasks-svgrepo-com.svg" alt="My Happy SVG"/>
                     <h3>Preformatted lists</h3>    
                 </div>
-                <div>
+                <div class="animation-wrapper2">
                     <img class="svg" src = "./svg/more-svgrepo-com.svg" alt="My Happy SVG"/>
                     <h3>And many more</h3>
                 </div>
@@ -193,5 +201,6 @@
  </footer>
  <script src='./darkmode.js'></script>
  <script src='./navbar.js'></script>
+ <script src="./animation.js"></script>
 </body>
 </html>
