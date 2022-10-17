@@ -12,18 +12,3 @@ function scrollFunction() {
     document.getElementById("navbar").classList.remove('sticky');
   }
 }
-
-
-/*function OnScrollWindow() {
-  if (document.body.scrollTop > 570 || document.documentElement.scrollTop > 570) {
-var elements = document.getElementsByClassName("navbar-menu__link");
-elements[0].className = "navbar-menu__link--override";
-} else {
-  var elements = document.getElementsByClassName("navbar-menu__link--override");
-  elements[0].className = "navbar-menu__link";
-}
-
-for (var i = 0; i < elements.length; i++){
-    elements[i].className = "navbar-menu__link navbar-menu__link--override";
-}
-}*/
