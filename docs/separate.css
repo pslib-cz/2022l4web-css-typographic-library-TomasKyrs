@@ -161,6 +161,18 @@ html {
         color: white;
       }
 
+      .dark-mode .white-block {
+        background: #312f2f; ;
+      }
+
+      .dark-mode .skew-cc {
+        background: linear-gradient(to right bottom, #823A9C 49%, #312f2f 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+      }
+
+      .dark-mode .skew-c {
+        background: linear-gradient(to left bottom, #312f2f 49%, #823A9C 50%);
+      }
+
       .dark-mode #navbar{
         background-color: rgb(49, 47, 47);
         color: white;
@@ -202,8 +214,13 @@ h1 {
     margin-top: 3em;
 }
 
+
 section h2 {
     padding-top: 3.5em;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -2em;
+    padding-bottom: 2em;
 }
 
 .header__tag {
@@ -296,10 +313,11 @@ section h2 {
 
 .styled-table tbody tr {
   border-bottom: thin solid #dddddd;
+  background-color: #533bda;
 }
 
 .styled-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+  background-color: #cf882c;
 }
 
 .styled-table tbody tr:last-of-type {
@@ -319,7 +337,7 @@ section h2 {
 }
 
 .width__container__info {
-  background-image: linear-gradient(-45deg, #6178f7 0, #ab1b46 100%);
+  background-color: #823A9C;
   box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2),
   0 11px 21px 0 rgba(255, 166, 220, 0.004);
     margin-top: 50vh;
@@ -491,8 +509,11 @@ header {
 div.social-media-links {
   background: #323b40;
   overflow: hidden;
+  margin-top: 4em;
+  padding-top: 2em;
   padding-bottom: 4px;
   text-align: center;
+  position: relative;
 }
       footer ul {
         margin: 0;
@@ -503,7 +524,7 @@ div.social-media-links {
         margin: 0;
         padding: 0;
       }
-      footer a {
+      .footer_svg {
         border-bottom: 0px solid rgba(0,0,0,0.95);
         border-radius: 4px;
         box-shadow: inset 0 -3px 0 0 rgba(0,0,0,0), 0 6px 8px rgba(0,0,0,0), 0 24px 24px rgba(0,0,0,0), 0 36px 36px rgba(0,0,0,0), 0 64px 64px rgba(0,0,0,0), 0 64px 128px rgba(0,0,0,0), 0 120px 0 rgba(0,0,0,0), 0 86px 8px 6px rgba(0,0,0,0),;
@@ -521,7 +542,7 @@ div.social-media-links {
           height: 30px;
           width: 30px;
         }
-      footer a:hover {
+      .footer_svg:hover {
         transform: translateY(-4px);
         box-shadow: inset 0 -3px 0 0 rgba(0,0,0,0.1), 0 6px 8px rgba(0,0,0,0.05), 0 24px 24px rgba(0,0,0,0.05), 0 36px 36px rgba(0,0,0,0.05), 0 64px 64px rgba(0,0,0,0.15), 0 64px 128px rgba(0,0,0,0.15), 0 86px 8px 6px;
       }
@@ -532,3 +553,96 @@ div.social-media-links {
 			footer	path, circle {
 					fill: #0ebac7;
 				}
+
+        .logo {
+          width: 120px;
+        }
+
+        .sv {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+right: 0;
+margin-right: 3em;
+margin-top: 1.5em;
+        }
+
+        footer p {
+          max-width: 60%;
+          margin: 0 auto;
+          color: white;
+          padding-bottom: 1em;
+        }
+
+
+        .colour-block {
+          background:#823A9C;
+          width:60%;
+          padding: 5% 20% 5% 20%;
+          color:#fff;
+        }
+        .white-block {
+          background:#fff;
+          width:60%;
+          padding: 5% 20% 7% 20%;
+          color:#823A9C;
+        }
+
+        p {
+          font-family:'Raleway', serif;
+        }
+        
+        
+        /*------------------*/
+        /*  SKEW CLOCKWISE  */
+        /*------------------*/
+        .skew-cc{
+          width:100%;
+          height:100px;
+          position:absolute;
+          left:0px;
+          background: linear-gradient(to right bottom, #823A9C 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+        }
+        
+        
+        /*-------------------------*/
+        /* SKEW COUNTER CLOCKWISE  */
+        /*-------------------------*/
+        .skew-c{
+          width:100%;
+          height:100px;
+          position:absolute;
+          left:0px;
+          background: linear-gradient(to left bottom, #fff 49%, #823A9C 50%);
+        }
+
+        .image--flex {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .image--flex__svg {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 30%;
+          filter: invert(1) sepia(1) saturate(10) hue-rotate(175deg);
+        }
+
+        .image--flex__div p {
+          max-width: 500px;
+        }
+
+        .image--flex__div h3 {
+          text-align: center;
+        }
+
+        .scaled_image {
+          margin-left: -10em;
+        }
+
+        .colour-block--width {
+          width: 80%;
+          padding: 5% 10% 5% 10%;
+        }
