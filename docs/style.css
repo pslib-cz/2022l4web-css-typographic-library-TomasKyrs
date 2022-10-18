@@ -3,15 +3,7 @@ h1 {
     line-height: 3rem;
 }
 
-blockquote {
-    background-color: rgba(199, 199, 199, 0.719);
-    padding: 1em;
-    max-width: 70%;
-}
-
-q {
-    padding-left: 2em;
-}
+     /*<------------- Scaling image ------------>*/
 
 .scaled_image {
     max-width: 60%;
@@ -63,6 +55,8 @@ figcaption {
     padding-left: 1em;
 }
 
+     /*<------------- Alert buttons ------------>*/
+
 .alert {
     display: flex;
     margin-bottom: .5em;
@@ -82,4 +76,186 @@ figcaption {
     padding: 0 1em;
     margin: auto 0;
     cursor: pointer;
+}
+
+     /*<------------- Blockquote and q ------------>*/
+
+  blockquote p::before {
+    content: open-quote;
+}
+
+blockquote p::after {
+    content: close-quote;
+}
+
+blockquote {
+    margin: 0;
+    border-left: 0.3rem solid #d1d1d1;
+    padding: 0 0 0 1em;
+    font-style: italic;
+}
+
+blockquote p {
+    padding: 15px;
+    background: var(--dark-grey);
+    border-radius: 5px;
+    align-self: center;
+}
+
+figure {
+    margin: 1em 0;
+}
+
+figcaption {
+    font-style: normal;
+}
+
+figcaption .author {
+    font-style: italic;
+    font-weight: 500;
+}
+
+figcaption .author::before,
+figcaption .author::after {
+    content: '\2014';
+    margin-right: .5em;
+    display: inline;
+    font-weight: normal;
+}
+
+figcaption .author::after {
+    content: '\2014';
+    margin-left: .5em;
+}
+
+q {
+    font-style: italic;
+    display: inline;
+    padding-left: .5em;
+}
+
+.q_before {
+    font-style: normal;
+}
+
+     /*<------------- Table ------------>*/
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+      padding: 18px 60px;
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: thin solid #dddddd;
+    background-color: #d6bdbd;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #cf882c;
+  }
+  
+  .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+
+       /*<------------- Button ------------>*/
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+     /*<------------- Changing text ------------>*/
+
+     .changingwords {
+        vertical-align:top;
+        overflow:hidden;
+        height:150px;
+        margin-top: 4em;
+        position:relative;
+        display: inline-block;
+          width: 100%;
+      }
+
+.changingwords strong > b {
+    font-size: 5rem;
+    color: #e0a330;
+    margin: 0 auto;
+}
+
+.hidden{
+  position:absolute;
+  top: 20px;
+  display:inline-block;
+    opacity:0;
+  animation: slideme 12s infinite;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+.hidden:nth-child(3){
+  animation-delay: 3s;
+}
+.hidden:nth-child(5){
+  animation-delay: 6s;
+}
+.hidden:nth-child(7){
+  animation-delay: 9s;
+}
+
+@keyframes slideme {
+  0% {
+    top: 20px;
+    opacity:0;
+  }
+  5% {
+    top: 0px;
+    opacity:1;
+  }
+  10%{
+    top : 0;
+    opacity:1;
+  }
+  20%{
+    opacity:1;
+  }
+  25% {    
+  opacity:0.1;
+    top : 0;
+  }
+  30% {
+    opacity:0;
+    top: 20px;
+  }
 }
