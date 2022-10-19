@@ -61,7 +61,7 @@ and (max-width: 999px) {
         max-width: calc(100% - 16px);
     }
 
-    .styled-table {
+    table {
         margin: 25px 0;
         font-size: 0.9em;
         min-width: 0px;
@@ -70,8 +70,8 @@ and (max-width: 999px) {
       }
       
       
-      .styled-table th,
-      .styled-table td {
+      table th,
+      table td {
           padding: 18px 20px;
       }
 
@@ -229,8 +229,8 @@ and (max-width: 400px) {
     padding: 3% 5% 5% 5%;
   }
 
-  .styled-table th,
-  .styled-table td {
+  table th,
+  table td {
       padding: 2px 5px;
       margin-left: -2em;
   }
@@ -239,7 +239,7 @@ and (max-width: 400px) {
     padding: 0.1em;
   }
 
-  .styled-table {
+  table {
     margin-left: -1.3em;
     max-width: 250px;
   }
@@ -252,7 +252,7 @@ and (max-width: 400px) {
 @media only screen 
 and (min-width: 720px)
 and (max-width: 999px) {
-    .styled-table {
+    table {
         margin: 25px 0;
         font-size: 0.9em;
         min-width: 0px;
@@ -261,8 +261,8 @@ and (max-width: 999px) {
       }
       
       
-      .styled-table th,
-      .styled-table td {
+      table th,
+      table td {
           padding: 18px 40px;
       }
 
@@ -344,8 +344,8 @@ margin-top: 2em;
         margin-left: auto;
       }
 
-      .styled-table th,
-      .styled-table td {
+      table th,
+      table td {
           padding: 30px 90px;
       }
 

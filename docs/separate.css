@@ -198,15 +198,15 @@ html {
         color: white;
       }
 
-      .dark-mode .styled-table tbody tr:nth-of-type(even) {
+      .dark-mode table tbody tr:nth-of-type(even) {
         background-color: #797878;
       }
 
-      .dark-mode .styled-table tbody tr {
+      .dark-mode table tbody tr {
         border-bottom: thin solid #818080;
       }
 
-      .dark-mode .styled-table {
+      .dark-mode table {
         box-shadow: 0 0 20px rgba(189, 189, 189, 0.15);
       }
 
