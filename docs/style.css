@@ -296,3 +296,17 @@ input[type=checkbox]:checked::after {
     content: "🌕";
     padding-bottom: 5px;
 }
+
+@media(max-width: 992px)
+{
+#theme-switch
+{
+     position: absolute;
+    top: 11px;
+    right: 60px;   
+}  
+
+#navbar a.icon {
+    top: 14px !important;
+}  
+}

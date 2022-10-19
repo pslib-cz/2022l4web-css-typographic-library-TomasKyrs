@@ -36,7 +36,7 @@ var btn = document.createElement("INPUT");
 btn.setAttribute("type", "checkbox");
 btn.setAttribute("id", "theme-switch")
 // document.getElementsByTagName("body")[0].append(btn)
-document.getElementById("navbar").append(btn)
+document.getElementById("navbar_sirka").append(btn)
 
 let theme = localStorage.getItem("theme");
 if (theme === "dark"){
