@@ -132,6 +132,33 @@ Indicates a preformatted text
       line breaks </pre>
 ```
 
+## Text customization
+
+### P tag
+<p>Normal paragraph</p> - ```<p>Normal paragraph</p>```
+ 
+### u tag
+<u>underlined</u> - ```<u>underlined</u>```
+
+### b tag
+<b>bold</b> - ```<b>bold</b>```
+
+### strike tag
+<s>striked</s> - ```<s>striked</s>```
+
+### mark tag
+<mark>highlited</mark> - ```<mark>highlited</mark>```
+
+### italic tag
+<i>italic</i> - ```<i>italic</i>```
+
+### a tag
+<a "href="#">clickable</a> - ```<a "href="#">clickable</a>```
+
+### small tag
+<small>small</small> - ```<small>small</small>```
+
+
 ## Footer
 ```
 <footer>
