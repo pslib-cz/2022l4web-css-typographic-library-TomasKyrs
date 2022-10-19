@@ -87,6 +87,39 @@ Ordered lists and unordered lists are currently being used
  <p>This is a warning alert box that will disappear when you click on X button.</p>
 </div>
 ```
+## Table
+```
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Points</th>
+      <th>Rank</th>
+      <th>Role</th>
+    </tr>
+ </thead>
+<tbody>
+    <tr>
+       <td>Dom</td>
+       <td>4000</td>
+       <td>#3</td>
+       <td>Support</td>
+    </tr>
+     <tr>
+       <td>Alice</td>
+       <td>6000</td>
+       <td>#2</td>
+       <td>Defense</td>
+     </tr>
+     <tr class="active-row">
+        <td>Melissa</td>
+        <td>6150</td>
+        <td>#1</td>
+        <td>Leader</td>
+     </tr>
+</tbody>
+        </table>
+```
 
 ## Pre tag
 Indicates a preformatted text
@@ -98,6 +131,35 @@ Indicates a preformatted text
      both       spaces and
       line breaks </pre>
 ```
+
+## Text customization
+
+### p tag
+Normal paragraph - ```<p>Normal paragraph</p>```
+ 
+### u tag
+<u>underlined</u> - ```<u>underlined</u>```
+
+### b tag
+<b>bold</b> - ```<b>bold</b>```
+
+### strike tag
+<s>striked</s> - ```<s>striked</s>```
+
+### mark tag
+<mark>highlited</mark> - ```<mark>highlited</mark>```
+
+### italic tag
+Tag defines a part of text in an alternate voice or mood, often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc. 
+
+<i>italic</i> - ```<i>italic</i>```
+
+### a tag
+<a "href="#">clickable</a> - ```<a "href="#">clickable</a>```
+
+### small tag
+<small>small</small> - ```<small>small</small>```
+
 
 ## Footer
 ```
