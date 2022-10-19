@@ -135,7 +135,7 @@ Indicates a preformatted text
 ## Text customization
 
 ### p tag
-<p>Normal paragraph</p> - ```<p>Normal paragraph</p>```
+Normal paragraph - ```<p>Normal paragraph</p>```
  
 ### u tag
 <u>underlined</u> - ```<u>underlined</u>```
@@ -151,6 +151,7 @@ Indicates a preformatted text
 
 ### italic tag
 tag defines a part of text in an alternate voice or mood, often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc. 
+
 <i>italic</i> - ```<i>italic</i>```
 
 ### a tag
