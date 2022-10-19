@@ -87,6 +87,39 @@ Ordered lists and unordered lists are currently being used
  <p>This is a warning alert box that will disappear when you click on X button.</p>
 </div>
 ```
+## Table
+```
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Points</th>
+      <th>Rank</th>
+      <th>Role</th>
+    </tr>
+ </thead>
+<tbody>
+    <tr>
+       <td>Dom</td>
+       <td>4000</td>
+       <td>#3</td>
+       <td>Support</td>
+    </tr>
+     <tr>
+       <td>Alice</td>
+       <td>6000</td>
+       <td>#2</td>
+       <td>Defense</td>
+     </tr>
+     <tr class="active-row">
+        <td>Melissa</td>
+        <td>6150</td>
+        <td>#1</td>
+        <td>Leader</td>
+     </tr>
+</tbody>
+        </table>
+```
 
 ## Pre tag
 Indicates a preformatted text
