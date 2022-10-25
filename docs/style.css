@@ -254,7 +254,6 @@ text-align: center;
 
 .flex_gallery {
   display: flex;
-  flex-basis: 32%;
 }
 
 .flex_gallery > figure{
@@ -285,4 +284,114 @@ code {
   display: block;
   word-wrap: break-word;
   white-space: pre-wrap;
+}
+
+/* <-------------- Optimization for mobile devices and tablets ----------------->*/
+
+@media only screen 
+and (min-width: 0px)
+and (max-width: 999px) {
+
+  .changingwords strong > b {
+    font-size: 1.75rem;
+}
+
+.flex_gallery {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex_gallery > figure{
+  margin: .5em 0em;
+}
+
+.changingwords {
+  height: 75px;
+}
+
+pre {
+  white-space: pre-line;
+}
+
+p {
+  font-size:16px;
+  font-family:'Raleway', serif;
+}
+
+table {
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 0px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+table th,
+table td {
+    padding: 18px 20px;
+}
+
+figure {
+  max-width: 100%;
+  margin: 0;
+}
+
+figure:hover figcaption::before {
+  font-size: 1rem;
+}
+
+figure:hover figcaption::after{
+  font-size: 1rem;
+}
+
+blockquote {
+  margin: 0 auto;
+}
+}
+
+@media only screen 
+and (min-width: 0px)
+and (max-width: 400px) {
+  pre {
+    font-size: 11px;
+  }
+
+  table th,
+  table td {
+      padding: 2px 5px;
+  }
+
+  .code_pre--tags {
+    padding: 0.1em;
+  }
+
+  table {
+    max-width: 250px;
+  }
+}
+
+@media only screen 
+and (min-width: 1000px)
+and (max-width: 1700px) {
+
+.flex_gallery {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex_gallery > figure{
+  margin: .5em .5em;
+  max-width: unset;
+  flex-basis: 47%;
+}
+
+figure {
+  margin-left: 0;
+}
+
+
+.changingwords strong > b {
+  font-size: 3rem;
+}
+
 }

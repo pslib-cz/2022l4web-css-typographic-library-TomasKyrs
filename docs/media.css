@@ -13,13 +13,6 @@ and (max-width: 999px) {
       text-align: center;
   }
 
-  .changingwords strong > b {
-    font-size: 1.75rem;
-}
-
-.changingwords {
-  height: 75px;
-}
 
 .website_name {
   padding: 0 !important;
@@ -29,10 +22,6 @@ and (max-width: 999px) {
   font-size: 2.25rem;
 }
 
-  p {
-    font-size:16px;
-    font-family:'Raleway', serif;
-  }
 
   header > p {
     font-size: 1.25rem;
@@ -63,40 +52,6 @@ and (max-width: 999px) {
 
     .width__container {
         max-width: calc(100% - 16px);
-    }
-
-    table {
-        margin: 25px 0;
-        font-size: 0.9em;
-        min-width: 0px;
-        max-width: 720px;
-        margin: 0 auto;
-      }
-      
-      
-      table th,
-      table td {
-          padding: 18px 20px;
-      }
-
-      .code_pre {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: baseline;
-      }
-
-      figure {
-        max-width: 100%;
-        margin: 0;
-    }
-
-    figure:hover figcaption::before {
-        font-size: 1rem;
-      }
-    
-      figure:hover figcaption::after{
-        font-size: 1rem;
     }
 
     .width__container__info--wrapper > div h3 {
@@ -198,9 +153,6 @@ and (max-width: 999px) {
         }
 
 
-      blockquote {
-        margin: 0 auto;
-      }
 
       .logo {
         width: 60px;
@@ -219,9 +171,7 @@ margin-top: 1.5em;
 @media only screen 
 and (min-width: 0px)
 and (max-width: 400px) {
-  pre {
-    font-size: 11px;
-  }
+
 
   .white-block {
     width: 90%;
@@ -231,21 +181,6 @@ and (max-width: 400px) {
   .colour-block {
     width: 90%;
     padding: 3% 5% 5% 5%;
-  }
-
-  table th,
-  table td {
-      padding: 2px 5px;
-      margin-left: -2em;
-  }
-
-  .code_pre--tags {
-    padding: 0.1em;
-  }
-
-  table {
-    margin-left: -1.3em;
-    max-width: 250px;
   }
 
   .logo {
@@ -315,10 +250,6 @@ and (max-width: 999px) {
           text-align: center;
       }
 
-      .changingwords strong > b {
-        font-size: 3rem;
-    }
-
       .width__container__info {
         margin-top: 40vh;
       }
@@ -335,10 +266,10 @@ and (max-width: 999px) {
         scroll-padding-top: 72px;
       }
 
-      figure {
-        margin-left: 0;
-      }
+    }
 
+    .button_nadpis {
+      padding-top: 4em;
     }
 
     .sv {
