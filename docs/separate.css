@@ -285,12 +285,6 @@ section h2 {
   margin-bottom: 2.33em;
 }
 
-.code_pre {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
 .code_pre--tags {
   background-color: rgb(189, 186, 186);
   width:fit-content;
@@ -624,6 +618,12 @@ margin-top: 1.5em;
           filter: invert(1) sepia(1) saturate(10) hue-rotate(175deg);
         }
 
+        .notice {
+          margin-top: -10px;
+          padding-top: 0;
+          font-size: 1rem;
+        }
+
         .image--flex__div p {
           max-width: 500px;
         }
@@ -632,7 +632,7 @@ margin-top: 1.5em;
           text-align: center;
         }
 
-        .scaled_image {
+        figure {
           margin-left: -10em;
         }
 

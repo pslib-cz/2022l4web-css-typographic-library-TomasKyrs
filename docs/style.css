@@ -5,30 +5,30 @@ h1 {
 
      /*<------------- Scaling image ------------>*/
 
-.scaled_image {
+figure {
     max-width: 60%;
     position: relative;
     overflow: hidden;
     height: 100%;
 }
 
-.scaled_image:hover .responsiveimg_scale{
+figure:hover img{
     transform: scale(1.05);
     transition: transform .25s ease-in-out;
     overflow: hidden;
 }
 
-.responsiveimg_scale{
+img{
     transform: scale(1);
     transition: transform .25s ease-in-out;
     vertical-align: middle;
 }
 
-.responsiveimg_scale{
+img{
     width: 100%;
 }
 
-  .scaled_image:hover figcaption::before {
+  figure:hover figcaption::before {
     content: "Image 1";
     position: absolute;
     bottom: 0;
@@ -41,7 +41,7 @@ h1 {
     background: linear-gradient(to top, hsla(230, 40%, 5%, 0.95), hsla(230, 40%, 5%, 0));
   }
 
-  .scaled_image:hover figcaption::after{
+  figure:hover figcaption::after{
     content: "Author: Jessie Brown";
     position: absolute;
     bottom: 0;
@@ -102,28 +102,20 @@ blockquote p {
     align-self: center;
 }
 
-figure {
-    margin: 1em 0;
-}
-
-figcaption {
-    font-style: normal;
-}
-
-figcaption .author {
+.author {
     font-style: italic;
     font-weight: 500;
 }
 
-figcaption .author::before,
-figcaption .author::after {
+.author::before,
+.author::after {
     content: '\2014';
     margin-right: .5em;
     display: inline;
     font-weight: normal;
 }
 
-figcaption .author::after {
+.author::after {
     content: '\2014';
     margin-left: .5em;
 }
@@ -258,4 +250,39 @@ text-align: center;
     opacity:0;
     top: 20px;
   }
+}
+
+.flex_gallery {
+  display: flex;
+  flex-basis: 32%;
+}
+
+.flex_gallery > figure{
+  margin: 0 .5em;
+}
+
+.flex_gallery > figure:hover figcaption::before {
+  font-size: 1rem;
+}
+
+.flex_gallery > figure:hover figcaption::after{
+  font-size: 1rem;
+}
+
+code {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #f36d33;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }

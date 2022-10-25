@@ -25,6 +25,10 @@ and (max-width: 999px) {
   padding: 0 !important;
 }
 
+.first_letter_navbar {
+  font-size: 2.25rem;
+}
+
   p {
     font-size:16px;
     font-family:'Raleway', serif;
@@ -82,16 +86,16 @@ and (max-width: 999px) {
         align-items: baseline;
       }
 
-      .scaled_image {
+      figure {
         max-width: 100%;
         margin: 0;
     }
 
-    .scaled_image:hover figcaption::before {
+    figure:hover figcaption::before {
         font-size: 1rem;
       }
     
-      .scaled_image:hover figcaption::after{
+      figure:hover figcaption::after{
         font-size: 1rem;
     }
 
@@ -270,16 +274,16 @@ and (max-width: 999px) {
         max-width: calc(100% - 32px);
     }
 
-    .scaled_image {
+    figure {
         max-width: 80%;
         margin: 0 auto;
     }
     
-    .scaled_image:hover figcaption::before {
+    figure:hover figcaption::before {
         font-size: 1.1rem;
       }
     
-      .scaled_image:hover figcaption::after{
+      figure:hover figcaption::after{
         font-size: 1.1rem;
     }
 
@@ -311,6 +315,10 @@ and (max-width: 999px) {
           text-align: center;
       }
 
+      .changingwords strong > b {
+        font-size: 3rem;
+    }
+
       .width__container__info {
         margin-top: 40vh;
       }
@@ -325,6 +333,10 @@ and (max-width: 999px) {
 
     html {
         scroll-padding-top: 72px;
+      }
+
+      figure {
+        margin-left: 0;
       }
 
     }
@@ -353,7 +365,7 @@ margin-top: 2em;
         max-width: 2500px;
       }
 
-      .scaled_image {
+      figure {
         margin-left: 0em;
         max-width: 50%;
       }

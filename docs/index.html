@@ -109,8 +109,8 @@
             <h2>Scaling image</h2>
             <p>The &lt;img&gt; tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. The tag creates a holding space for the referenced image.</p>
           <div class="image--flex">
-                <figure class="scaled_image">
-                    <img class="responsiveimg_scale" src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="#">
+                <figure>
+                    <img src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="#">
                     <figcaption></figcaption>
                 </figure>
                 <div class="image--flex__div">
@@ -122,6 +122,54 @@
           </div>
         </div>
     </section>
+
+
+    <div class="skew-cc"></div>
+    <section>
+      <div class="white-block colour-block--width">
+        <div class="width__container">
+          <h2>Flex gallery</h2>
+          <p>The &lt;img&gt; tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. The tag creates a holding space for the referenced image.</p>
+        <div class="flex_gallery">
+              <figure>
+                  <img src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="#">
+                  <figcaption></figcaption>
+              </figure>
+              <figure>
+                <img src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="#">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="#">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="#">
+                <figcaption></figcaption>
+            </figure>
+        </div>
+        </div>
+      </div>
+  </section>
+
+  <div class="skew-c"></div>
+  <section>
+  <div class="colour-block colour-block--width">
+    <div class="width__container">
+      <h2>Code tag</h2>
+      <p>The &lt;code&gt; tag is used to define a piece of computer code. It has been reworked to display a block of code.</p>
+      <p>Either type "&amp;lt" instead of "&lt;" and "&amp;gt" instead of "&gt;" or use the script below that does this automatically.</p> 
+      <p class="notice">Note that the code needs to have an #display_code ID if using the script.</p>
+      <code id="display_code">A piece of code being displayed...
+        <script>
+              let str = document.getElementById("display_code").innerHTML; 
+              let res = str.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+              document.getElementById("display_code").innerHTML = res;
+        </script>
+</code>
+    </div>
+  </div>
+</section>
     
     <div class="skew-cc"></div>
     <section id="quotes">
@@ -131,14 +179,12 @@
         <p>The HTML &lt;blockquote&gt; element defines a section that is quoted from another source.</p>
         <p style="margin-bottom: 2em;">The &lt;q&gt; tag defines a short quotation.</p>
         <h3>Blockquote</h3>
-        <figure>
             <blockquote>
                 <p>As we express our gratitude, we must never forget that the highest form of appreciation is not to utter words, but to live by them.</p>
                             </blockquote>
-             <figcaption><span class="author">John F. Kennedy</span>Thanksgiving proclamation</figcaption>
-        </figure>
+             <span class="author">John F. Kennedy</span>Thanksgiving proclamation
         <h3 style="margin-top: 3em;">Q tag</h3>
-        <span class="q_before">His rival, Fidel Castro once said:</span><q>I think that a man should not live beyond the age when he begins to deteriorate, when the flame that lighted the brightest moment of his life has weakened.</q>
+        <span class="q_before">His rival, Fidel Castro, once said:</span><q>I think that a man should not live beyond the age when he begins to deteriorate, when the flame that lighted the brightest moments of his life has weakened.</q>
             </div>
         </div>
     </section>
@@ -237,9 +283,8 @@
     <div class="skew-cc"></div>
     <section>
         <div class="white-block">
-        <h2>Pre and code tag</h2>
-        <p>The &lt;pre&gt; tag is used for indicating preformatted text. The &lt;code&gt; tag surrounds the code being marked up.</p>
-<div class="code_pre">
+        <h2>Pre tag</h2>
+        <p>The &lt;pre&gt; tag is used for indicating preformatted text.</p>
    <div>
         <h3>Preformatted text</h3>
         <div class="code_pre--tags">
@@ -253,16 +298,6 @@ Text in a pre element
                     </div>
         </div>
    </div>
-   <div>
-        <h3>Code block</h3>
-        <div class="code_pre--tags">
-            <div class="code_pre--border">
-                  <p>The HTML <code>button</code> tag defines a clickable button.</p>
-                  <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
-            </div>
-        </div>
-   </div>
-</div>
             </div>
    </section>
 
@@ -271,7 +306,7 @@ Text in a pre element
        <div class="colour-block">
            <div class="width__container">
        <h2 class="text_showcaseh2">Text</h2>
-       <p>Normal paragraph. This text is <u>underlined</u> and this text is <b>bold</b>. This text is <s>striked</s> and this text is <mark>highlited</mark>. There is <i>italic</i> text with small words. This text is <a style="color: white; "href="#">clickable</a> and this text is <small>small</small></p>
+       <p>Normal paragraph. This text is <u>underlined</u> and this text is <b>bold</b>. This text is <s>striked</s> and this text is <mark>highlited</mark>. There is <i>italic</i> text with small words. This text is <a style="color: white; " href = "#">clickable</a> and this text is <small>small</small></p>
        <h2>Buttons</h2>
      <div class="buttons">
            <button>Default Button</button>
@@ -284,7 +319,7 @@ Text in a pre element
    </section>
 
    <div class="skew-cc"></div>
-   <section id="alert">
+   <section>
        <div class="white-block">
            <div class="width__container">
        <h2>Changing text using pure CSS</h2>
