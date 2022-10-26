@@ -657,4 +657,35 @@ margin-top: 1.5em;
           background-color: #7f8385;
           padding: .5em;
         }
+        
+        .flex_gallery__width {
+          max-width: 1700px;
+        }
 
+        .flex_gallery__img2:hover figcaption::before {
+          content: "Image 2";
+        }
+        
+        .flex_gallery__img3:hover figcaption::before {
+          content: "Image 3";
+        }
+        
+        .flex_gallery__img2:hover figcaption::after {
+          content: "Author: Unknown";
+        }
+        
+        .flex_gallery__img4:hover figcaption::before {
+          content: "Voyage Nature";
+        }
+        
+        .flex_gallery__img4:hover figcaption::after {
+          content: "Author: Unknown";
+        }
+        
+        .flex_gallery__img5:hover figcaption::before {
+          content: "Thailand";
+        }
+        
+        .flex_gallery__img5:hover figcaption::after {
+          content: "Getty Images";
+        }
