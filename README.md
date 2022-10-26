@@ -207,6 +207,26 @@ Tag defines a part of text in an alternate voice or mood, often used to indicate
 <small>small</small> - ```<small>small</small>```
 
 
+## Buttons
+
+### Default Button
+```
+ <button>Default Button</button>
+ ```
+ Default Button
+
+## Changing words 
+```
+ <div class="changingwords">
+            <strong>
+                <b class="hidden">Easy to implement</b><br />
+                <b class="hidden">Fully customizable</b><br />
+                <b class="hidden">New modern standard</b><br />
+                <b class="hidden">Few lines of code</b>
+            </strong>
+        </div>
+```
+
 ## Footer
 ```
 <footer>
