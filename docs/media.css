@@ -29,6 +29,10 @@ and (max-width: 999px) {
     width: 75%;
   }
 
+  header {
+    margin-top: 8em;
+  }
+
   .arrows {
 	width: 84px;
 	height: 96px;
