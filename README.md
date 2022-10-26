@@ -85,14 +85,16 @@ Static image and scaling image
 ### Blockquote
 ```
    <blockquote>
-    <p>As we express our gratitude, we must never forget that the highest form of appreciation is not to utter words, but to live by them.</p>
+    <p>As we express our gratitude, we must never forget that the highest form of appreciation is not to utter words, 
+    but to live by them.</p>
    </blockquote>
    <span class="author">John F. Kennedy</span>Thanksgiving proclamation
 ```
 
 ### Q tag
 ```
-<q>I think that a man should not live beyond the age when he begins to deteriorate, when the flame that lighted the brightest moments of his life has weakened.</q>
+<q>I think that a man should not live beyond the age when he begins to deteriorate, 
+when the flame that lighted the brightest moments of his life has weakened.</q>
 ```
 
 ## Lists
