@@ -46,9 +46,55 @@ Static image and scaling image
 ### Scaling image
 ```
 <figure class="scaled_image">
-  <img class="responsiveimg_scale" src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="#">
+  <img class="responsiveimg_scale" src="#" alt="#">
   <figcaption></figcaption>
  </figure>
+```
+
+### Flex Gallery
+```
+   <div class="flex_gallery">
+              <figure>
+                 <img src="#" alt="#">
+                 <figcaption></figcaption>
+             </figure>
+              <figure>
+                <img src="#" alt="#">
+                <figcaption></figcaption>
+           </figure>
+            <figure>
+                <img src="#" alt="#">
+                <figcaption></figcaption>
+           </figure>
+            <figure>
+                <img src="#" alt="#">
+                <figcaption></figcaption>
+            </figure>
+        </div>
+```
+
+## Code tag
+```
+<code>Your code goes here...
+<div>Hello</div>
+</code>
+```
+
+## Quote tags
+
+### Blockquote
+```
+   <blockquote>
+    <p>As we express our gratitude, we must never forget that the highest form of appreciation is not to utter words, 
+    but to live by them.</p>
+   </blockquote>
+   <span class="author">John F. Kennedy</span>Thanksgiving proclamation
+```
+
+### Q tag
+```
+<q>I think that a man should not live beyond the age when he begins to deteriorate, 
+when the flame that lighted the brightest moments of his life has weakened.</q>
 ```
 
 ## Lists
@@ -160,6 +206,37 @@ Tag defines a part of text in an alternate voice or mood, often used to indicate
 ### small tag
 <small>small</small> - ```<small>small</small>```
 
+
+## Buttons
+
+### Default Button
+```
+ <button>Default Button</button>
+ ```
+### Link Button
+```
+<a href="#" class="button">Link Button</a>
+ ```
+### Styled Button
+```
+<button class="button">Button</button>
+```
+### Input Button
+```
+<input type="button" class="button" value="Input Button">
+```
+
+## Changing words 
+```
+ <div class="changingwords">
+            <strong>
+                <b class="hidden">Easy to implement</b><br />
+                <b class="hidden">Fully customizable</b><br />
+                <b class="hidden">New modern standard</b><br />
+                <b class="hidden">Few lines of code</b>
+            </strong>
+        </div>
+```
 
 ## Footer
 ```
