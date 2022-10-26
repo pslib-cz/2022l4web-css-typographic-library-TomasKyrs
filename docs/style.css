@@ -29,7 +29,7 @@ img{
 }
 
   figure:hover figcaption::before {
-    content: "Image 1";
+    content: "Golden Gate Bridge";
     position: absolute;
     bottom: 0;
     color: white;
@@ -252,20 +252,34 @@ text-align: center;
   }
 }
 
-.flex_gallery {
-  display: flex;
-}
-
-.flex_gallery > figure{
-  margin: 0 .5em;
-}
-
 .flex_gallery > figure:hover figcaption::before {
   font-size: 1rem;
 }
 
 .flex_gallery > figure:hover figcaption::after{
   font-size: 1rem;
+}
+
+.flex_gallery {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+}
+
+.flex_gallery > figure{
+  margin: 0;
+  max-width: unset;
+  flex-basis: 32%;
+}
+
+.flex_gallery > figure img{
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 code {
@@ -302,7 +316,11 @@ and (max-width: 999px) {
 }
 
 .flex_gallery > figure{
-  margin: .5em 0em;
+  margin: 0;
+}
+
+.flex_gallery > figure img{
+  height: 100%;
 }
 
 .changingwords {
@@ -380,9 +398,13 @@ and (max-width: 1700px) {
 }
 
 .flex_gallery > figure{
-  margin: .5em .5em;
+  margin: 0;
   max-width: unset;
   flex-basis: 47%;
+}
+
+.flex_gallery > figure img{
+  height: 280px;
 }
 
 figure {
@@ -394,4 +416,12 @@ figure {
   font-size: 3rem;
 }
 
+}
+
+@media only screen 
+and (min-width: 2160px) {
+
+.flex_gallery > figure img{
+  height: 475px;
+}
 }
