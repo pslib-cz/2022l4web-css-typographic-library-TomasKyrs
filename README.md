@@ -46,7 +46,7 @@ Static image and scaling image
 ### Scaling image
 ```
 <figure class="scaled_image">
-  <img class="responsiveimg_scale" src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="#">
+  <img class="responsiveimg_scale" src="#" alt="#">
   <figcaption></figcaption>
  </figure>
 ```
