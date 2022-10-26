@@ -55,19 +55,19 @@ Static image and scaling image
 ```
    <div class="flex_gallery">
               <figure>
-                   <img src="#" alt="#">
-                  <figcaption></figcaption>
-              </figure>
+                 <img src="#" alt="#">
+                 <figcaption></figcaption>
+             </figure>
               <figure>
-                  <img src="#" alt="#">
+                <img src="#" alt="#">
                 <figcaption></figcaption>
-            </figure>
+           </figure>
             <figure>
-                  <img src="#" alt="#">
+                <img src="#" alt="#">
                 <figcaption></figcaption>
-            </figure>
+           </figure>
             <figure>
-                  <img src="#" alt="#">
+                <img src="#" alt="#">
                 <figcaption></figcaption>
             </figure>
         </div>
