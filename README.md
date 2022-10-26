@@ -73,6 +73,13 @@ Static image and scaling image
         </div>
 ```
 
+## Code tag
+```
+<code>Your code goes here...
+&lt;div&gt;&lt;/div&gt;
+</code>
+```
+
 ## Lists
 Ordered lists and unordered lists are currently being used
 
