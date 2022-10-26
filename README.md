@@ -74,8 +74,9 @@ Static image and scaling image
 ```
 
 ## Code tag
+Your code goes here...
 ```
-<code>Your code goes here...
+<code>
 <div>Hello</div>
 </code>
 ```
