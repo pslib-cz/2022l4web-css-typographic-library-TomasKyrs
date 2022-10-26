@@ -51,6 +51,28 @@ Static image and scaling image
  </figure>
 ```
 
+### Flex Gallery
+```
+   <div class="flex_gallery">
+              <figure>
+                   <img src="#" alt="#">
+                  <figcaption></figcaption>
+              </figure>
+              <figure>
+                  <img src="#" alt="#">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                  <img src="#" alt="#">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                  <img src="#" alt="#">
+                <figcaption></figcaption>
+            </figure>
+        </div>
+```
+
 ## Lists
 Ordered lists and unordered lists are currently being used
 
