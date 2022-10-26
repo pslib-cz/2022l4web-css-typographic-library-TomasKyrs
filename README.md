@@ -11,7 +11,9 @@ Link style.css file to every HTML page using syntax:
 <link href="./style.css" rel="stylesheet">
 ```   
 ## Usage     
-...
+
+Copy the HTML structure and link the CSS file. It's easily customisable
+
 ## Header
 ```
 <header>
