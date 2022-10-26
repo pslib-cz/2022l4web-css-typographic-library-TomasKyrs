@@ -84,8 +84,8 @@ Your code goes here...
 ### Blockquote
 ```
    <blockquote>
-    <p>As we express our gratitude, we must never forget that the highest form of appreciation is not to utter words, 
-    but to live by them.</p>
+    <p>As we express our gratitude, we must never forget that the highest form of appreciation is 
+    not to utter words, but to live by them.</p>
    </blockquote>
    <span class="author">John F. Kennedy</span>Thanksgiving proclamation
 ```
