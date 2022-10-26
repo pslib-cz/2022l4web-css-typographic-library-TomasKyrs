@@ -2,8 +2,6 @@
 **Author:** *Tomáš Kyrš*
 ## Demo site
 Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-TomasKyrs)** site for preview.
-## Dependecies
-...
 ## Implementation
 
 Add file inside your project folder
@@ -238,16 +236,3 @@ Tag defines a part of text in an alternate voice or mood, often used to indicate
             </strong>
         </div>
 ```
-
-## Footer
-```
-<footer>
-    <img src="#" alt="#">
-    <p>Author: <strong>Name</strong></p>
-    <a href="#website">Website</a>
- </footer>
- ```
-
-## Components
-### First
-### Second
