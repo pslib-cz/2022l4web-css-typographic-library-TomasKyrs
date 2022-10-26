@@ -156,10 +156,6 @@ html {
         color: white;
       }
 
-      .dark-mode .q_before {
-        color: white;
-      }
-
       .dark-mode pre {
         color: white !important;
       }
@@ -190,11 +186,15 @@ html {
         color: #fff;
       }
 
-      .dark-mode figcaption {
+      .dark-mode #quotes > * {
         color: white;
       }
 
-      .dark-mode q, .q_before {
+      .dark-mode #quotes h3, #quotes h2 {
+        color: #823A9c;
+      }
+
+      .dark-mode figcaption {
         color: white;
       }
 
@@ -658,6 +658,3 @@ margin-top: 1.5em;
           padding: .5em;
         }
 
-        .q_before {
-          color: #823A9C;
-        }
