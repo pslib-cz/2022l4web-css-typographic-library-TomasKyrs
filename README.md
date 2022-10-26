@@ -14,7 +14,6 @@ Link style.css file to every HTML page using syntax:
 
 Copy the HTML structure and link the CSS file. It's easily customisable
 
-...
 ## Header
 ```
 <header>
