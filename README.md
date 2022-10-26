@@ -213,7 +213,18 @@ Tag defines a part of text in an alternate voice or mood, often used to indicate
 ```
  <button>Default Button</button>
  ```
- Default Button
+### Link Button
+```
+<a href="#" class="button">Link Button</a>
+ ```
+### Styled Button
+```
+<button class="button">Button</button>
+```
+### Input Button
+```
+<input type="button" class="button" value="Input Button">
+```
 
 ## Changing words 
 ```
