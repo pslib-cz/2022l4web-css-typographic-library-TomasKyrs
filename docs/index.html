@@ -128,7 +128,7 @@
       <div class="white-block colour-block--width">
         <div class="width__container flex_gallery__width">
           <h2>Flex gallery</h2>
-          <p>Created using flex technique. If you want to change the description of the image, simply add a unique class to each figure and use ::after and ::before alongside content.</p>
+          <p>Created using flex technique. If you want to change the description of the image, simply add unique class to each figure and use ::after and ::before and use content property.</p>
         <div class="flex_gallery">
               <figure>
                   <img src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="#">
@@ -160,16 +160,16 @@
   <div class="colour-block colour-block--width">
     <div class="width__container">
       <h2>Code tag</h2>
-      <p>The &lt;code&gt; tag is used to define a piece of computer code. It has been reworked for displaying a block of code.</p>
-      <p>Either type "&amp;lt" instead of "&lt;" and "&amp;gt" instead of "&gt;" or use the script below that does this automatically.</p> 
-      <p class="notice">Note that the code tag needs to have an #display_code ID if using the script.</p>
+      <p>The &lt;code&gt; tag is used to define a piece of computer code. It has been reworked to support displaying a block of code.</p>
+      <p>Note: you must either type "&amp;lt;" instead of "&lt;" and "&amp;gt;" instead of "&gt;" or use the script below that does this automatically.</p> 
+      <p class="notice">If using the script, the code needs to have an #display_code ID</p>
       <code id="display_code">A piece of code being displayed...
         <script>
               let str = document.getElementById("display_code").innerHTML; 
               let res = str.replace(/</g, '&lt;').replace(/>/g, '&gt;');
               document.getElementById("display_code").innerHTML = res;
         </script>
-Replace '&lt;' with &amp;lt in the script as well.
+Replace '&lt;' with &amp;lt; and '&gt;' with &amp;gt; in the script as well.
 </code>
     </div>
   </div>
