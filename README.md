@@ -30,23 +30,14 @@ Copy the HTML structure and link the CSS file. It's easily customisable
      qui unde asperiores delectus nobis tempore omnis at quibusdam.</p>
 </div>
 ```
-## Image
+## Image and gallery
 
-Static image and scaling image
-
-### Static image
-
-```
-<figure>
-        <img src="#" alt="#">
-        <figcaption>Image 1</figcaption>
-</figure>
-```
+Scaling image and flex gallery
 
 ### Scaling image
 ```
-<figure class="scaled_image">
-  <img class="responsiveimg_scale" src="#" alt="#">
+<figure>
+  <img src="#" alt="#">
   <figcaption></figcaption>
  </figure>
 ```
